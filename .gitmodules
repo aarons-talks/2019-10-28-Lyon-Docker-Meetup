@@ -1,0 +1,3 @@
+[submodule "servantes"]
+	path = servantes
+	url = git@github.com:arschles/servantes.git
