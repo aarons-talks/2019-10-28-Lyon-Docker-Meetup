@@ -6,6 +6,14 @@ My talk from the Lyon, France Docker Meetup on October 28, 2019.
 
 The slides are written using [RevealJS](https://revealjs.com). To view the presentation, open `index.html` in your web browser.
 
+You can also run a local HTTP static file server, for example:
+
+```console
+$ python -m SimpleHTTPServer 7000
+```
+
+And then open `http://localhost:7000` in your browser.
+
 # Demo
 
 This demo comes straight from [Servantes](https://github.com/windmilleng/servantes). To try it out, [install Tilt](https://docs.tilt.dev/install.html) and then run these commands:
