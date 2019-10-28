@@ -15,4 +15,8 @@ $ cd servantes
 $ tilt up
 ```
 
-You'll then have ports 9000-9010 forwarded from your Kubernetes cluster onto `localhost`.
+You should see a colorful console UI pop up in your browser. You can scroll between the different services that Tilt is running for you and check out their logs, status, etc...
+
+Also, you can pop up a browser view of all this in action. Press the `b` key to open it up. In the browser view, you can click on one of the services on the right side and see the same kind of information as in the terminal (logs, status, etc...) but importantly, you can also get a link to the port-forwarded server that service runs on!
+
+Simply click that link and see the particular microservice running.
