@@ -9,6 +9,7 @@
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/reveal.css">
 		<link rel="stylesheet" href="css/theme/white.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/monokai.css">
@@ -27,6 +28,7 @@
 			<div class="slides">
 				<section>
 					<h1>The Kubernaut Developer Experience</h1>
+					<a href="https://twitter.com/arschles">@arschles</a>
 				</section>
 				<section>
 					<h2>What is DX?</h2>
@@ -75,7 +77,12 @@
 						microservices&#8482;
 					</h1>
 					<small>
-						<a href="https://tilt.dev">Tilt</a>
+						<a
+							class="btn btn-outline-dark btn-lg"
+							href="https://tilt.dev"
+						>
+							Tilt
+						</a>
 					</small>
 				</section>
 				<section>
@@ -94,12 +101,15 @@
 					</aside>
 				</section>
 				<section>
-					<h3>Conclusion</h3>
-					Where can you eliminate context switches?
-
-					Repetitive tasks
-
-					*I like Tilt, I don't work there
+					<h3>Direct your focus</h3>
+					<p>Context switches</p>
+					<p>Repetitive Tasks</p>
+					<div class="mt-5">
+						<a href="https://twitter.com/arschles">@arschles</a>
+					</div>
+					<p class="float-right align-bottom"><small>
+						*Big fan of Tilt, not an employee though :)
+					</small></p>
 				</section>
 			</div>
 		</div>
@@ -110,6 +120,10 @@
 			// - https://github.com/hakimel/reveal.js#configuration
 			// - https://github.com/hakimel/reveal.js#dependencies
 			Reveal.initialize({
+				progress: true,
+				center: true,
+				hash: true,
+				controls: false,
 				dependencies: [
 					{ src: 'plugin/markdown/marked.js' },
 					{ src: 'plugin/markdown/markdown.js' },
